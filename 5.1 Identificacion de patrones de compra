@@ -1,0 +1,92 @@
+#link de google sheets con la info
+https://docs.google.com/spreadsheets/d/1nfroqG9uiD1Aas0oFMm28k2PeaFrKIXiYn1n7TDvyxQ/edit?gid=417994518#gid=417994518
+https://docs.google.com/spreadsheets/d/1nfroqG9uiD1Aas0oFMm28k2PeaFrKIXiYn1n7TDvyxQ/edit?usp=sharing
+
+#link de notion 
+https://towering-polyester-674.notion.site/5-1-Identificaci-n-de-patrones-de-compra-4534ea66a7a88389a44f013041490fa6
+
+
+# 5.1 - Identificación de patrones de compra
+
+Zoop Megastore cuenta con un amplio portafolio de productos y una base de clientes diversa. Con las ventas realizándose a través de diferentes canales, **comprender los patrones de compra** se convierte en un desafío clave para ofrecer una experiencia más personalizada al cliente. El equipo de gestión identificó que, para aumentar las ventas y la satisfacción de los clientes, es fundamental saber **quién compra qué**, **cuándo** y **dónde**. Esto permitirá ajustar las ofertas y recomendaciones de acuerdo con el perfil de cada cliente, mejorando su experiencia y maximizando las oportunidades de venta.
+
+### **Lo que debe hacerse**:
+
+El desafío consiste en analizar los datos de ventas de Zoop, explorando variables como el rango de edad, los métodos de pago, el género y la región. Con ello, será posible identificar quiénes son los principales compradores de cada producto y utilizar esta información para futuras estrategias de personalización.
+
+- **[Prompt 1: Mapeo de Patrones de Compra]**: Realizar un análisis descriptivo de los datos de ventas, identificando patrones generales de compra por producto, región y características demográficas.
+- **[Prompt 2: Segmentación de Clientes]**: Agrupar a los clientes en segmentos con patrones de compra similares e identificar oportunidades iniciales de personalización.
+
+Este análisis permitirá a Zoop personalizar sus estrategias de marketing y ventas de manera más eficiente, ofreciendo a los clientes exactamente lo que desean, en el momento y el lugar que prefieren.
+
+
+▶️ PROMPT DE COMANDO 1 - Mapeo de patrones de compra
+```markdown
+# Perfil de ChatGPT:
+Eres un **Analista de Datos de Ventas** de Zoop Megastore, especializado en identificar patrones de comportamiento de compra y segmentación de clientes. Tu tarea es realizar un análisis descriptivo detallado de los datos de ventas para extraer insights estratégicos.
+
+# Instrucciones para ChatGPT:
+
+## 1. Cantidad de Registros:
+- Cuenta el número total de **registros de ventas** en el archivo.
+
+## 2. Análisis de Frecuencia de Ventas por Producto:
+- Lista los productos vendidos y la **cantidad total de ventas** para cada uno.
+- Calcula el **promedio de ventas** por producto.
+
+## 3. Análisis de Métodos de Pago:
+- Lista los **métodos de pago** utilizados por los clientes (ej.: Tarjeta de crédito, PIX, etc.).
+- Calcula la **frecuencia** de cada método y el **porcentaje** con respecto al total de ventas.
+
+## 4. Análisis de Ventas por Localidad:
+- Agrupa las ventas por **región**, **estado** y **ciudad**.
+- Muestra el **total de ventas** y el **promedio de ventas** por localidad (ciudad, estado, región).
+
+## 5. Perfil Demográfico de los Clientes:
+- Presenta la distribución de los clientes por **género** (Femenino, Masculino).
+- Calcula la edad promedio de los clientes y agrupa las ventas por **rango de edad**.
+
+## 6. Análisis Temporal:
+- Crea una tabla que muestre la **cantidad de ventas** por **fecha** (día, mes y año).
+- Identifica los **picos de ventas** y los períodos de mayor o menor actividad a lo largo del tiempo.
+
+# Formato de Respuesta Esperado:
+- Presenta los resultados de cada sección de forma organizada, con tablas detalladas para cada análisis (ej.: Tabla de frecuencia de productos vendidos, métodos de pago, ventas por localidad, etc.).
+- Incluye gráficos cuando sea necesario (gráficos de barras, histogramas) para visualizar los patrones.
+- Presenta los números con un decimal y utiliza coma para separar los decimales.
+```
+
+Realiza un análisis descriptivo de datos, identificando patrones generales de compra por producto, región y demografía.
+
+
+▶️ PROMPT DE COMANDO 2 - Segmentación de Clientes
+```markdown
+# Perfil de ChatGPT:
+Eres un **Especialista en Segmentación de Mercado**, encargado de identificar grupos de clientes con patrones de compra similares. Tu tarea es agrupar a los clientes de Zoop Megastore con base en variables demográficas y de comportamiento, utilizando técnicas avanzadas de segmentación.
+
+# Instrucciones para ChatGPT:
+
+## 1. Segmentación por Rango de Edad y Género:
+- Agrupa a los clientes en **rangos de edad** (ej.: 18-25, 26-35, 36-50, 51+).
+- Para cada rango de edad, presenta la distribución de las ventas por **género** (Femenino, Masculino).
+- Muestra la **frecuencia de ventas** para cada grupo de edad y género.
+
+## 2. Segmentación por Localidad:
+- Agrupa a los clientes por **región geográfica** (Centro-Oeste, Sudeste, Nordeste, etc.).
+- Para cada región, presenta la **cantidad de ventas** y el **método de pago preferido**.
+
+## 3. Segmentación por Producto y Método de Pago:
+- Identifica los productos más comprados para cada segmento de clientes (rango de edad + género).
+- Muestra los **métodos de pago** más utilizados para cada segmento de clientes.
+
+## 4. Análisis de Clústeres (Opción Avanzada):
+- Utiliza una técnica de **clustering** (ej.: K-means o agrupamiento jerárquico) para identificar **grupos de clientes similares** con base en el comportamiento de compra.
+- Enumera los principales **grupos** formados y presenta sus características principales (ej.: grupo 1: rango de edad joven, prefieren productos electrónicos; grupo 2: clientes de mayor edad, prefieren electrodomésticos).
+
+# Formato de Respuesta Esperado:
+- Presenta los resultados de cada sección de segmentación con tablas organizadas.
+- Utiliza gráficos para ilustrar las **diferencias** entre los segmentos (ej.: gráficos de barras para los métodos de pago por rango de edad, gráfico de pastel para las ventas por localidad).
+
+```
+
+Agrupa a los clientes en segmentos con patrones de compra semejantes, mapeando oportunidades para la personalización.
