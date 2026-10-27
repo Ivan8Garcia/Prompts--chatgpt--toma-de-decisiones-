@@ -1,0 +1,133 @@
+#link de notion
+https://towering-polyester-674.notion.site/3-1-An-lisis-de-Inventario-0f34ea66a7a8824f909b81cdd948e370
+
+# 3.1 - Análisis de Inventario
+
+Zoop Megastore enfrenta un gran desafío debido a la acumulación de inventario de calentadores, lo que genera altos costos de almacenamiento y pérdida de espacio. Este problema fue identificado por los equipos de logística y comercial, quienes detectaron que las fallas en la planificación, las campañas mal dirigidas y las dificultades de integración entre las áreas contribuyeron a esta situación. Ahora, la empresa necesita un análisis detallado para identificar las causas exactas del problema antes de definir acciones correctivas.
+
+## Qué se debe hacer:
+
+1. Ahora nos centraremos en una etapa crucial del proceso de **toma de decisiones estratégicas**: el **análisis de las causas**. Con frecuencia, en un entorno corporativo, las decisiones se toman sin una comprensión profunda de las causas subyacentes. Esto puede conducir a soluciones superficiales e ineficaces. Sin embargo, un proceso de toma de decisiones exitoso requiere un análisis estructurado para identificar los factores que realmente impactan el problema.
+2. Utilizando frameworks avanzados como **MECE (Mutuamente Exclusivo y Colectivamente Exhaustivo)** y el **Diagrama de Ishikawa (Espina de Pescado)**, serás capaz de comprender las **causas internas y externas** que llevaron a la acumulación de inventario de calentadores en Zoop Megastore. Este análisis será fundamental para garantizar que las acciones correctivas propuestas en el próximo video sean precisas, eficaces y estén basadas en datos sólidos, y no únicamente en suposiciones.
+3. En primer lugar, lee el estudio de caso a continuación para **comprender el contexto** y la información proporcionada por los equipos de logística, comercial, marketing y mejora de procesos de Zoop Megastore. Este escenario te ayudará a identificar las áreas problemáticas y las posibles causas.
+4. Después de revisar la información, aplica el prompt en ChatGPT para generar un **análisis detallado de las causas**. Esto servirá como base para la **definición de acciones correctivas** en el próximo video. Sin una comprensión clara de las causas, cualquier decisión que se tome puede ser únicamente paliativa y no resolver el problema de raíz.
+5. Al finalizar el proceso, contarás con un análisis sólido y estructurado de las causas que llevaron a la acumulación de inventario, y estarás preparado para avanzar con la **propuesta de acciones correctivas**, sabiendo exactamente qué es lo que debe corregirse.
+
+## ℹ️ **Caso de Estudio:** Informaciones de Zoop
+
+## **CONTEXTO**
+
+```
+Zoop Megastore, una gran cadena minorista que vende una amplia variedad de productos, está enfrentando un problema significativo en su cadena de suministro. En particular, el inventario de calentadores eléctricos ha aumentado drásticamente en los últimos meses, lo que ha generado altos costos de almacenamiento, falta de espacio para nuevos productos y presión sobre las ganancias.
+
+Este incremento no fue previsto adecuadamente por los modelos de demanda anteriores, y ahora la empresa se encuentra con un exceso de inventario que puede comprometer sus finanzas y su eficiencia operativa, especialmente porque estamos fuera de la temporada de mayor demanda para este producto.
+
+Para comprender mejor el problema, el equipo de logística se reunió con las áreas de marketing, comercial y mejora de procesos para analizar las posibles causas de esta acumulación de inventario y proponer soluciones.
+```
+
+## **ACTA DE REUNIÓN DE LOS EQUIPOS DE LOGÍSTICA, MARKETING, COMERCIAL Y MEJORÍA DE PROCESOS.**
+
+```markdown
+**ACTA DE REUNIÓN - Zoop Megastore**
+**Fecha:** 12/08/2024
+**Participantes:** Equipos de Logística, Comercial, Marketing y Mejora de Procesos
+
+**Agenda:** Análisis del elevado inventario de calentadores eléctricos y discusión de las posibles causas.
+
+**Discusiones:**
+1. **Logística:**
+   - Fallas en la planificación de pedidos: Los pedidos se basaron en datos históricos desactualizados y sin considerar la estacionalidad.
+   - Tiempo de entrega elevado de los proveedores: El tiempo de reposición de los productos aumentó a 90 días debido a nuevos protocolos de transporte.
+   - Capacidad limitada de almacenamiento: El inventario ocupó un 35% más de espacio de lo previsto, generando dificultades logísticas y aumentando los costos.
+
+2. **Comercial:**
+   - Pronósticos de demanda imprecisos: El volumen de ventas fue sobreestimado en un 25%, especialmente en las regiones donde la demanda de calentadores tiende a ser estacional.
+   - Reducción de las ventas en canales específicos: El canal de ventas en línea, que normalmente registra el mayor volumen, sufrió una caída del 15% debido a la fuerte competencia.
+
+3. **Marketing:**
+   - Campañas mal orientadas: Las campañas de marketing no consideraron la estacionalidad adecuada para los calentadores y no estuvieron sincronizadas con la demanda de la temporada de invierno.
+   - Falta de personalización en las promociones: Las promociones generalizadas no llegaron a los consumidores adecuados, lo que resultó en tasas de conversión por debajo de lo esperado.
+
+4. **Mejora de Procesos:**
+   - Falta de integración entre las áreas: La comunicación entre los equipos de logística y comercial fue deficiente, lo que generó discrepancias en los pronósticos de demanda.
+   - Falta de análisis en tiempo real: No se realizó un monitoreo continuo de las ventas ni del comportamiento de los clientes, lo que impidió realizar ajustes oportunos en los pronósticos y las promociones.
+
+**Conclusiones:**
+- Las áreas de marketing y comercial deben alinear sus campañas con los datos de estacionalidad y las demandas regionales.
+- Reevaluación urgente de la planificación del inventario y de la integración de datos entre las áreas.
+- La empresa necesita utilizar herramientas de inteligencia artificial y análisis de datos en tiempo real para ajustar los pronósticos y evitar nuevos excesos de inventario.
+
+**Próximas acciones:**
+- Revisar el sistema de pronóstico de demanda utilizando inteligencia artificial.
+- Implementar campañas promocionales dirigidas para reducir el exceso de inventario.
+- Monitorear las métricas de ventas y ajustar el volumen de reposición con base en los resultados reales.
+```
+
+## **TABLA DE INDICADORES PARA EL ANÁLISIS**
+
+| Indicador | Descripción | Valor/Estado Actual |
+| --- | --- | --- |
+| Capacidad de Almacenamiento | Porcentaje del almacén ocupado por los calentadores eléctricos | 35% por encima de la capacidad ideal |
+| Tiempo de Reposición | Tiempo promedio de reposición de los calentadores eléctricos | 90 días |
+| Pronóstico de Demanda | Desviación entre el pronóstico y las ventas reales | 25% de sobreestimación |
+| Reducción de Ventas en Línea | Disminución en el canal de ventas en línea | -15% |
+| Tasa de Conversión | Conversión de las campañas promocionales | 12% por debajo de la meta |
+| Costos de Almacenamiento | Costo adicional debido al exceso de inventario | +20% en los últimos 3 meses |
+| Estacionalidad | Meses esperados para el aumento de la demanda | Junio–Agosto (alta demanda) |
+| Canales de Venta | Desempeño de los principales canales (en línea y tiendas físicas) | En línea por debajo de lo esperado; tiendas físicas estables |
+
+## ▶️ **Prompt de Comando - Mapeo de Causas de Inventario Elevado:**
+
+A continuación se presenta el prompt que utilizarás en ChatGPT para iniciar el mapeo de las causas del exceso de inventario de calentadores en Zoop Megastore. Este te ayudará a comprender los motivos que llevaron a la acumulación de productos en inventario y a sugerir acciones correctivas.
+
+```markdown
+# Persona de ChatGPT
+Eres un consultor especializado en gestión de inventarios y análisis de causas operativas. Tu objetivo es identificar las causas del exceso de inventario de un producto en mi empresa, utilizando metodologías avanzadas de análisis, como el framework MECE y el Diagrama de Ishikawa (Espina de Pescado), para garantizar que el análisis cubra todas las variables posibles.
+
+# Objetivo
+Zoop Megastore está enfrentando un problema de exceso de inventario de calentadores eléctricos. Tu trabajo es realizar un análisis completo de las causas de este exceso de inventario, utilizando métodos estructurados de análisis para identificar los factores internos y externos que contribuyeron a este problema. El enfoque es mapear las causas, sin sugerir acciones correctivas.
+
+# Instrucciones para ChatGPT
+Solicita la siguiente información de la empresa para que puedas realizar el análisis adecuado e identificar las causas. No limites tu análisis a un conjunto fijo de variables; explora todas las posibles causas internas y externas.
+
+**Solicita información como:**
+- Actas de reuniones
+- Observaciones de los gerentes
+- Tabla de indicadores
+
+## Tareas a Realizar:
+
+1. **Identificación de Causas Utilizando el Framework MECE**:
+   - **Utiliza el framework MECE (Mutuamente Exclusivas y Colectivamente Exhaustivas)** para organizar las causas del exceso de inventario, dividiéndolas en:
+     - **Causas Internas** (factores bajo el control de la empresa) y
+     - **Causas Externas** (factores fuera del control directo de la empresa).
+
+   **Causas Internas** (Ejemplos):
+   - Fallas en la planificación y previsión de la demanda.
+   - Problemas logísticos y operativos internos.
+   - Fallas en el control de inventario y en los procesos de reabastecimiento.
+   - Impacto de campañas de ventas o marketing ineficaces.
+
+   **Causas Externas** (Ejemplos):
+   - Problemas con proveedores y logística (retrasos en el lead time, interrupciones en el suministro).
+   - Cambios estacionales o eventos imprevistos que afectaron la demanda.
+   - Acciones de la competencia y cambios en el mercado externo.
+   - Impacto económico y fluctuaciones de precios (materias primas, tipo de cambio, etc.).
+
+2. **Uso del Diagrama de Ishikawa (Causa y Efecto)**:
+   - Organiza las causas identificadas en un **Diagrama de Ishikawa (Espina de Pescado)**. Estructura las principales categorías de causas y sus subcausas, explorando áreas como:
+     - Previsión de la demanda y planificación,
+     - Proveedores y logística,
+     - Marketing y ventas,
+     - Operaciones internas (inventario, reabastecimiento, producción),
+     - Impactos externos y competencia.
+
+3. **Análisis Cuantitativo y Cualitativo**:
+   - Analiza tanto las **causas cuantitativas** (datos reales de ventas, inventario, lead time, etc.) como las **causas cualitativas** (comportamiento del consumidor, tendencias del mercado, cambios estacionales).
+   - Utiliza métodos estadísticos para identificar posibles patrones o anomalías en el comportamiento de la demanda en comparación con los volúmenes de inventario.
+
+4. **Conclusión (sin Acciones Correctivas)**:
+   - El resultado del análisis debe ser una **identificación exhaustiva de las causas del exceso de inventario**, sin sugerir acciones correctivas. La lista de causas se utilizará posteriormente para la priorización y definición de acciones estratégicas.
+
+## Inicio: Solicita la información
+```
