@@ -1,0 +1,244 @@
+#link de notion 
+https://towering-polyester-674.notion.site/6-3-Decisi-n-sin-datos-con-escenarios-y-heur-sticas-f544ea66a7a88287bc6381a0cc0b77cb
+
+# 6.3 - Decisión sin datos con escenarios y heurísticas
+
+Ahora que el director de Zoop recibió apoyo en la construcción de escenarios y en la colaboración con el equipo, es momento de tomar la decisión final. ChatGPT guiará al director en la creación de un **plan estratégico final** basado en escenarios de riesgo, heurísticas (**Enfoque rápido para decisiones complejas**) e intuición. El enfoque estará en la aplicación de un framework estratégico para transformar las proyecciones en decisiones prácticas.
+
+## **Qué se debe hacer**:
+
+En este último video, el estudiante aplicará las proyecciones y los insights obtenidos anteriormente para crear un plan estratégico concreto, utilizando el framework **Matriz de Decisión Multicriterio** para elegir el mejor escenario y la mejor acción.
+
+- **[Prompt 1: Matriz de Decisión Multicriterio]**: ChatGPT ayudará a crear una **Matriz de Decisión** con múltiples criterios (impacto, riesgo, viabilidad y urgencia) para evaluar los escenarios generados y seleccionar el mejor curso de acción.
+    - **Información necesaria**:
+        - **Escenarios proyectados**: Los tres escenarios generados anteriormente **(en el chat)**.
+        - **Criterios de evaluación**: ¿Qué criterios son los más importantes para la decisión? (Ej.: riesgo, impacto en las ventas, tiempo de implementación). **(En el prompt)**.
+        - **Lluvia de ideas del equipo (Insertar)**.
+        - **Peso de cada criterio**: Definir el peso de cada criterio, como la urgencia o el potencial de impacto. **(Insertar)**.
+- **[Prompt 2: Decisión Final y Validación Heurística]**: Para complementar el plan, ChatGPT ayudará a validar la decisión final con base en **heurísticas** e insights obtenidos de la intuición y la experiencia del director. El enfoque será consolidar el plan de acción final con base en proyecciones y experiencias.
+    - **Información necesaria**:
+        - **Experiencia previa**: Decisiones anteriores que hayan tenido éxito y que puedan validar la elección actual.
+        - **Presiones externas e internas**: Identificar las influencias que impactan la decisión y validar las heurísticas utilizadas.
+
+## ▶️ PROMPT DE COMANDO 1 - Matriz de Decisión Multicriterio
+
+```markdown
+# Perfil de ChatGPT:
+Como **Consultora Estratégica** especializada en evaluación de escenarios y toma de decisiones basada en múltiples criterios. Tu papel es guiar a Stevan Camacho, director de Zoop Megastore, y a su equipo en la construcción de una **Matriz de Decisión Multicriterio** para evaluar los escenarios generados y seleccionar la mejor acción estratégica.
+
+# Instrucciones para ChatGPT:
+
+## 1. Contexto de los Escenarios:
+- Recuerda los escenarios discutidos anteriormente y pregúntale a Stevan si ha habido algún cambio.
+
+## 2. Lluvia de ideas:
+- Solicita el resultado de la lluvia de ideas realizada con el equipo.
+
+## 3. Definición de los Criterios:
+- Pregúntale a Stevan cuáles criterios considera más importantes y pídele que asigne un peso a cada criterio para evaluar estos escenarios. Algunos ejemplos de criterios pueden incluir:
+  - **Impacto en el crecimiento de la empresa**
+  - **Riesgo de implementación**
+  - **Viabilidad operativa**
+  - **Urgencia de aplicación**
+- Explica el propósito de cada criterio y proporciona ejemplos de pesos para que Stevan tenga claridad sobre lo que debe hacer.
+
+## 3. Espera las respuestas de Stevan.
+
+## 4. Construcción de la Matriz de Decisión Multicriterio:
+- **Solo después de recibir las respuestas sobre los criterios y sus pesos**, guía a Stevan en la creación de la **Matriz de Decisión Multicriterio**. Organiza los escenarios y los criterios en una tabla clara, donde los escenarios puedan ser evaluados de acuerdo con los pesos asignados.
+- **Proporciona una propuesta de la matriz multicriterio, explica el cálculo y justifica la evaluación. Al final, indícale a Stevan que puede modificarla o aprobarla.**
+- **Evaluación:** utiliza una escala de 1 a 10 y expresa los pesos en porcentaje (%).
+
+- Ejemplo de formato de la tabla:
+
+| Escenario  | Impacto | Riesgo | Viabilidad | Urgencia | Peso Total |
+|------------|---------|---------|-------------|-----------|------------|
+| Escenario 1 |         |         |             |           |            |
+| Escenario 2 |         |         |             |           |            |
+| Escenario 3 |         |         |             |           |            |
+
+# Inicio: Solicita la información
+```
+
+### ℹ️ INFORMACIONES - PROMPT 1 - Resultado del Brainstorming
+
+```jsx
+### Resultado de la Lluvia de Ideas - Zoop Megastore: Expansión Internacional y Reorganización de Tiendas Físicas
+
+La sesión de lluvia de ideas generó una serie de propuestas que servirán como base para la construcción de un plan de acción estratégico. A continuación, se presentan los principales hallazgos organizados en diferentes áreas estratégicas.
+
+---
+
+#### 1. Expansión Internacional
+
+##### Principales Desafíos Identificados:
+
+* **Falta de Experiencia en Mercados Internacionales**:
+
+  * Establecer alianzas estratégicas con empresas locales para adquirir conocimiento del mercado y de la logística.
+  * Contratar consultorías especializadas en expansión internacional para acelerar la curva de aprendizaje.
+  * Adquirir startups locales que ya operen en el mercado objetivo.
+
+* **Adaptación Logística y Cultural**:
+
+  * Probar el ingreso al mercado con un enfoque **digital-first** (comercio electrónico), minimizando los costos iniciales.
+  * Realizar proyectos piloto con pequeñas tiendas físicas en los mercados más prometedores para evaluar la aceptación antes de una expansión a gran escala.
+  * Enfocarse en la **personalización** de la oferta de productos para responder a las particularidades culturales de cada país.
+
+##### Oportunidades Identificadas:
+
+* **Crecimiento del Comercio Electrónico en América Latina**:
+
+  * Aprovechar el acelerado crecimiento del comercio electrónico en la región mediante una entrada digital.
+  * Utilizar tecnología de IA para analizar datos y comprender mejor el comportamiento de consumo en los nuevos mercados.
+  * Crear campañas de marketing digital localizadas, utilizando influencers regionales y adaptando la comunicación al mercado local.
+
+* **Automatización Residencial**:
+
+  * Diferenciarse ofreciendo productos de automatización residencial, un sector en crecimiento en América Latina.
+  * Brindar **soporte técnico local** para soluciones de automatización residencial, un servicio que los competidores internacionales podrían no ofrecer con la misma eficacia.
+  * Utilizar IA para integrar recomendaciones personalizadas en el comercio electrónico según el comportamiento del consumidor y las tendencias del mercado.
+
+---
+
+#### 2. Reorganización de las Tiendas Físicas
+
+##### Principales Desafíos Identificados:
+
+* **Integración Omnicanal**:
+
+  * Crear una experiencia fluida entre las tiendas físicas y el comercio electrónico. Las tiendas físicas pueden funcionar como espacios de demostración e interacción, mientras que las ventas pueden concretarse en línea.
+  * Incorporar tecnologías como **realidad aumentada** y demostraciones en vivo para productos como automatización residencial y electrodomésticos.
+  * Mejorar la **experiencia de compra** para convertir las tiendas físicas en destinos y no solo en puntos de venta, ofreciendo experiencias que no puedan replicarse en línea.
+
+##### Oportunidades Identificadas:
+
+* **Reorganización para Generar Mayor Valor Agregado**:
+
+  * Reorganizar el diseño de las tiendas para destacar productos de mayor valor agregado, como soluciones de automatización residencial y electrodomésticos premium.
+  * Incorporar espacios interactivos donde los clientes puedan probar los productos y recibir asesoría personalizada.
+  * Implementar un sistema más eficiente de monitoreo de inventario, utilizando IA para predecir fluctuaciones en la demanda y evitar excesos o faltantes de productos.
+
+* **Innovación Tecnológica en las Tiendas**:
+
+  * Incorporar kioscos de **autoservicio** y experiencias digitales para agilizar el proceso de compra y aumentar el nivel de interacción con los clientes.
+  * Probar el uso de **IA en la atención al cliente** dentro de las tiendas, ofreciendo recomendaciones personalizadas de productos basadas en el historial de compras y las preferencias.
+  * Crear un **sistema de agendamiento** para demostraciones de productos, facilitando la personalización y convirtiendo la visita a la tienda en una experiencia única.
+
+---
+
+#### 3. Priorización de las Ideas
+
+Tras organizar las propuestas, estas fueron **priorizadas** con base en el **impacto potencial** y la **viabilidad**:
+
+1. **Alto Impacto y Viabilidad Moderada**:
+
+   * Ingreso al mercado internacional a través del **comercio electrónico**.
+   * Alianzas con startups locales para acelerar la adaptación logística y cultural.
+   * Reorganización de las tiendas físicas para destacar **productos de automatización residencial**.
+
+2. **Alta Viabilidad e Impacto Moderado**:
+
+   * Introducción de **autoservicio** e integración digital en las tiendas físicas.
+   * Creación de **campañas de marketing digital localizadas**.
+
+3. **Alto Impacto y Baja Viabilidad**:
+
+   * Expansión física directa sin proyectos piloto previos. Esta opción fue considerada de alto impacto, pero con un nivel de riesgo elevado debido a la falta del aprendizaje inicial necesario.
+
+---
+
+#### 4. Refinamiento y Ajustes
+
+Durante la fase de ajustes, el equipo perfeccionó las soluciones:
+
+* Realizar **pruebas piloto** antes de cualquier expansión física a gran escala.
+* Crear una **plataforma de análisis predictivo** basada en IA para monitorear en tiempo real el desempeño de las ventas en los mercados internacionales y realizar ajustes con rapidez.
+* Introducir gradualmente la automatización residencial en los mercados internacionales, acompañada de **soporte técnico local**.
+
+---
+
+#### 5. Reflexión Final y Próximos Pasos
+
+Con base en las ideas generadas, se identificaron los siguientes pasos:
+
+* **Planificar un proyecto piloto** de comercio electrónico en un país de América Latina para validar la aceptación del mercado y ajustar la logística internacional.
+* **Reorganizar las tiendas físicas** en Brasil con enfoque en automatización residencial, creando experiencias interactivas e integrando tecnologías digitales.
+* Iniciar conversaciones con **startups locales** que puedan aportar conocimiento del mercado y asistencia técnica en el nuevo mercado internacional.
+
+Finalmente, el equipo reflexionó sobre la necesidad de revisar el plan después del proyecto piloto internacional, ajustando las estrategias conforme se obtengan los primeros resultados.
+
+```
+
+### ℹ️ INFORMACIONES - PROMPT 1 - Respuestas de los criterios
+
+```jsx
+CRITERIOS SELECCIONADOS POR STEVAN:
+
+IMPACTO EN EL CRECIMIENTO DE LA EMPRESA:
+Peso: 40%
+Justificación: "El crecimiento de Zoop, especialmente en los mercados internacionales, es una de las principales prioridades. La capacidad de expandir nuestra presencia y aumentar los ingresos será esencial para sostener nuestro éxito a largo plazo."
+
+RIESGO DE IMPLEMENTACIÓN:
+Peso: 20%
+Justificación: "Aunque el riesgo siempre es un factor importante, tenemos la capacidad de mitigar muchos de esos riesgos con una buena ejecución. No queremos que el miedo al riesgo limite nuestras decisiones estratégicas."
+
+VIABILIDAD OPERATIVA:
+Peso: 30%
+Justificación: "Necesitamos garantizar que el escenario elegido sea viable con los recursos que tenemos disponibles, tanto en términos de capital como de personal. El éxito de la ejecución depende de nuestra capacidad para implementar el plan de manera eficiente."
+
+URGENCIA DE APLICACIÓN:
+Peso: 10%
+Justificación: "Aunque es importante actuar rápidamente en algunos casos, la urgencia no es el factor más crítico para nuestra decisión en este momento. Podemos planificar una implementación más gradual si es necesario."
+
+```
+
+## ▶️ PROMPT DE COMANDO 2 - **Decisión Final y Validación Heurística (Abordaje rápido para decisiones complejas**)
+
+```markdown
+# Perfil de ChatGPT:
+
+Eres una **Consultora Estratégica** especializada en ayudar a ejecutivos a validar sus decisiones con base en **heurísticas** y **experiencia previa**. Tu tarea es guiar a Stevan Camacho, director de Zoop Megastore, para confirmar o ajustar la decisión final utilizando una combinación de análisis de escenarios, experiencia práctica y factores externos e internos.
+
+# Instrucciones para ChatGPT:
+
+## 1. Revisión de la Decisión Inicial:
+
+* Comienza revisando el escenario que obtuvo la mejor puntuación en la **Matriz de Decisión Multicriterio**.
+* Pregunta a Stevan:
+
+  * "Con base en la puntuación de la matriz, ¿te sientes cómodo con la elección de este escenario? ¿Hay algo que te gustaría reconsiderar o ajustar antes de seguir adelante?"
+
+## 2. Reflexión sobre Experiencias Anteriores:
+
+* Ayuda a Stevan a reflexionar sobre decisiones anteriores que tomó en situaciones similares:
+
+  * "Ya has tomado decisiones estratégicas similares en el pasado. ¿Cuáles fueron las lecciones aprendidas de esas experiencias que pueden ayudarte a orientar tu decisión ahora?"
+  * "¿Hay algún aspecto particular del escenario elegido que se parezca a desafíos que ya hayas enfrentado con éxito anteriormente?"
+
+## 3. Evaluación de las Presiones Internas y Externas:
+
+* Pide a Stevan que considere las influencias externas e internas que puedan impactar la decisión:
+
+  * "¿Qué presiones internas del equipo, de los stakeholders o de la alta dirección pueden influir en la decisión final?"
+  * "¿Existen influencias externas, como cambios en el mercado, comportamiento del consumidor o presiones competitivas, que deban tenerse en cuenta al validar este escenario?"
+
+## 4. Validación Heurística:
+
+* Valida la decisión final con base en la experiencia y la intuición de Stevan:
+
+  * "Con base en tu intuición y en la información que analizamos, ¿crees que esta es la mejor decisión que se puede tomar en este momento?"
+  * "¿Hay algún ajuste que te gustaría realizar con base en tu experiencia o en el análisis de las presiones externas e internas?"
+
+## 5. Confirmación Final:
+
+* Ayuda a Stevan a llegar a una conclusión y confirmar la decisión:
+
+  * "Ahora que hemos reflexionado sobre la matriz, tus experiencias anteriores y las presiones que pueden impactar el escenario, ¿estás listo para confirmar la decisión final?"
+  * "¿Hay algún otro detalle que debamos ajustar antes de continuar con el plan de acción?"
+
+# Estructura de Respuesta Esperada:
+
+* ChatGPT debe guiar a Stevan a través de un proceso de **reflexión** sobre la decisión tomada, ayudándolo a validar su elección con base en sus experiencias pasadas y en las influencias externas e internas.
+* El objetivo es que Stevan **confirme la decisión final** o realice ajustes, garantizando que el plan de acción esté totalmente alineado con su visión estratégica.
+```
