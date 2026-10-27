@@ -1,0 +1,172 @@
+#link de notion 
+https://towering-polyester-674.notion.site/3-3-Creaci-n-de-alertas-preventivas-y-acciones-proactivas-b534ea66a7a8826eb73281dc999c54a9
+
+# 3.3 - Creación de alertas preventivas y acciones proactivas
+
+## Contextualización del Problema
+
+Después de implementar las acciones correctivas sugeridas, los gerentes de Zoop Megastore identificaron la necesidad de prevenir futuras acumulaciones de inventario. Para ello, organizaron una reunión estratégica con las siguientes áreas:
+
+- Logística
+- Comercial
+- Marketing
+- Mejora de procesos
+
+El objetivo principal era desarrollar un sistema de monitoreo eficiente para:
+
+- Mantener el control del inventario
+- Optimizar las operaciones
+
+Esta iniciativa tenía como propósito planificar e implementar acciones preventivas eficaces.
+
+## **Paso a Paso para la Implementación de Acciones Preventivas Usando IA**
+
+### **Etapa 1: Consolidación de Información con la IA**
+
+- En primer lugar, los responsables consolidaron la información sobre las causas y las acciones correctivas aplicadas, utilizando el **Prompt 1** en ChatGPT. La IA ayudó a recopilar todos los datos relevantes relacionados con el inventario y las estrategias de corrección.
+    
+    ## ▶️ **Prompt de Comando - Consolidación de las Informaciones**
+    
+    ```markdown
+    # Persona de ChatGPT
+    Eres un consultor especializado en gestión de inventarios y eficiencia operativa. Tu función es actuar como un especialista en análisis preventivo, utilizando la información previa y tu experiencia para identificar patrones, brechas y oportunidades de mejora en el proceso de gestión de inventarios de Zoop Megastore.
+    
+    # Objetivo
+    Realiza un análisis detallado de la información proporcionada sobre las acciones correctivas implementadas en Zoop Megastore. Con base en los resultados de estas acciones, identifica y consolida los datos más relevantes que ayudarán a crear un sistema de alertas preventivas para evitar futuros problemas de inventario.
+    
+    # Instrucciones para ChatGPT
+    1. Evalúa y consolida **toda la información disponible**, incluyendo datos de ventas, campañas de marketing, cambios en el comportamiento de la demanda, e indicadores operativos y financieros.  
+    2. **Identifica qué información es relevante** para la creación de un sistema de monitoreo preventivo. Utiliza las mejores prácticas de gestión de inventarios, como la identificación de KPIs críticos, el análisis de riesgos y la evaluación de tendencias futuras.  
+    3. **Sugiere las variables más importantes** que deben monitorearse de forma continua. Presta atención a patrones ocultos o riesgos potenciales futuros que no hayan sido resueltos por las acciones correctivas anteriores.  
+    4. Organiza tus análisis en una tabla consolidada que será utilizada para crear alertas preventivas.
+    
+    # Resultado Esperado
+    Genera una tabla con los datos consolidados y los indicadores críticos que serán monitoreados en el siguiente paso. La tabla debe contener:
+    - **Indicador**: Nombre del indicador relevante.
+    - **Descripción**: Explicación de lo que monitorea ese indicador.
+    - **Valor Actual**: El valor consolidado de los datos.
+    - **Límite de Alerta**: Punto crítico en el que debe activarse la alerta.
+    ```
+    
+
+### **Etapa 2: Creación de Alertas y Acciones Preventivas**
+
+- Con base en la **información consolidada**, **las discusiones de la reunión** y la **Tabla de Indicadores para Monitoreo**, los gestores utilizaron la IA con el **Prompt 2** para estructurar un sistema de monitoreo y alertas que notificaría a la empresa cada vez que se alcanzaran indicadores críticos. ChatGPT sugirió mejores prácticas y definió las acciones proactivas que debían tomarse.
+    
+    ## ▶️ **Prompt de Comando - Creación de Alertas y Acciones Preventivas**
+    
+    ```markdown
+    # Persona de ChatGPT
+    
+    Eres un consultor especializado en gestión de inventarios y prevención de problemas operativos. Tu función es desarrollar un sistema eficiente de monitoreo preventivo, utilizando las mejores prácticas de gestión de inventarios, como Just-in-Time, Lean y análisis predictivos.
+    
+    # Objetivo
+    
+    Con base en la información consolidada previamente, crea un sistema de alertas preventivas que notifique al equipo de gestión cuando se alcancen indicadores críticos. Además, propone acciones proactivas para cada alerta, garantizando que las decisiones estratégicas se tomen antes de que el problema se agrave.
+    
+    # Instrucciones para ChatGPT
+    
+    1. Solicita información complementaria que pueda enriquecer el análisis, como:
+    
+       * Actas de reuniones de planificación.
+       * Tablas de indicadores y métricas de desempeño operativo y financiero.
+       * Evaluaciones de los gestores sobre posibles riesgos futuros y expectativas del mercado.
+    
+    2. **Creación de Alertas Preventivas**:
+    
+       * Utiliza los indicadores consolidados para definir los límites críticos que desencadenan una alerta preventiva.
+       * Identifica **nuevos posibles puntos de monitoreo** con base en tu experiencia como especialista y en los datos proporcionados.
+       * Evalúa y prioriza las variables con mayor riesgo potencial, como el lead time de suministro, la capacidad de almacenamiento y la eficiencia de las campañas de marketing.
+    
+    3. **Propuesta de Acciones Proactivas**:
+    
+       * Para cada alerta generada, sugiere acciones preventivas proactivas basadas en tu análisis. Considera metodologías avanzadas, como Lean y Just-in-Time, para garantizar la eficiencia operativa y la optimización de recursos.
+       * Las acciones deben ser prácticas y objetivas, aplicables directamente a la realidad de Zoop Megastore.
+    
+    4. **Modelo de Entrega**:
+    
+       * Organiza la entrega en formato de tabla con columnas que detallen:
+    
+       * **Alerta**: Nombre del indicador y su condición crítica.
+       * **Acción Proactiva**: Descripción detallada de la acción sugerida para prevenir problemas.
+       * **Impacto Estimado**: Evaluación del impacto financiero, operativo y de marketing.
+       * **Prioridad**: Clasificación de la acción según su nivel de criticidad (Alta, Media, Baja).
+    
+    # Ejemplo de Tabla de Acciones Preventivas
+    
+    | Alerta                                              | Acción Proactiva Sugerida                                                      | Impacto Estimado                              | Prioridad |
+    | --------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------- | --------- |
+    | Capacidad de Almacenamiento al 85%                  | Reducir los pedidos futuros e incrementar las promociones para liberar espacio | Reducción de los costos de almacenamiento     | Alta      |
+    | Lead Time superior a 60 días                        | Negociar plazos de entrega más cortos con los proveedores                      | Mejora en la flexibilidad del inventario      | Alta      |
+    | Conversión de Campañas por debajo del 10%           | Revisar las campañas y ajustar el público objetivo                             | Incremento de la tasa de conversión           | Media     |
+    | Costos de Almacenamiento 5% por encima del objetivo | Renegociar los costos o trasladar productos entre almacenes                    | Reducción de costos y mejor control logístico | Alta      |
+    
+    # Nota
+    
+    Asegúrate de que todas las acciones proactivas estén alineadas con las mejores prácticas de gestión de inventarios, previniendo riesgos futuros y garantizando una operación fluida y eficiente.
+    
+    ```
+    
+
+## ℹ️Informaciones para el Prompt 2:
+
+### **Acta de la Reunión:**
+
+Durante la reunión para el desarrollo del sistema de monitoreo preventivo, los equipos discutieron los principales indicadores que debían ser monitoreados. Decidieron implementar alertas basadas en el aumento de los costos de almacenamiento, el tiempo de entrega (*lead time*) y la capacidad de ventas, con el fin de evitar nuevos excesos de inventario.
+
+```
+**Fecha:** 28/08/2024  
+**Participantes:** Equipos de Logística, Comercial, Marketing, TI y Mejora de Procesos
+
+**Agenda:** Análisis sobre la implementación de alertas preventivas para el control de inventario y la optimización de acciones proactivas.
+
+## Discusiones Principales
+
+### Riesgos Identificados por la Falta de Alertas
+
+Se destacó que la ausencia de alertas automáticas anteriormente provocó una acumulación excesiva de productos, lo que contribuyó a costos adicionales de almacenamiento (+20% en los últimos tres meses). Si no implementamos medidas de monitoreo, el inventario puede seguir aumentando durante los períodos de baja demanda.
+
+**Impacto en las Finanzas:** Las estimaciones indican que, si no se toman medidas, el costo operativo podría aumentar hasta un 15% adicional durante los próximos dos trimestres, afectando el flujo de caja.
+
+### Propuesta de Integración de Alertas Proactivas
+
+Se sugirió la creación de un sistema de alertas basado en KPIs (indicadores clave) que permita el monitoreo en tiempo real del inventario, especialmente en puntos críticos como niveles de almacenamiento superiores al 85% y una caída en las ventas de más del 10% en comparación con el trimestre anterior.
+
+**Impacto Esperado:** Se espera que, con la implementación del sistema de alertas, los gestores tengan una mayor capacidad para ejecutar acciones correctivas antes de que los problemas se agraven, con una proyección de reducción de hasta un 10% en los costos de almacenamiento a corto plazo.
+
+### Adopción de Herramientas de Inteligencia Artificial
+
+El área de TI sugirió la integración de IA para automatizar el monitoreo y proponer acciones preventivas, como la redistribución del inventario entre las sucursales o el ajuste del mix de productos de acuerdo con el desempeño de las ventas.
+
+**Impacto Esperado:** La proyección indica que la adopción de estas herramientas puede reducir el tiempo de respuesta hasta en un 30%, garantizando que las acciones correctivas se tomen antes de que los niveles de inventario alcancen niveles críticos.
+
+### Discusión sobre la Reevaluación de Proveedores
+
+El área de logística propuso la creación de un sistema de alertas para monitorear el desempeño de los proveedores, especialmente el cumplimiento del *lead time*. Si el *lead time* se supera en más de 5 días, se activará una acción preventiva para ajustar los pedidos futuros y evitar una sobrecarga en el inventario.
+
+## Acciones Preventivas Planificadas
+
+Implementar un sistema de alertas basado en los siguientes parámetros:
+
+- Almacenamiento alcanzando más del 85% de la capacidad.
+- Variación negativa superior al 15% en las ventas mensuales en comparación con el mismo período del año anterior.
+- Disminución de la tasa de conversión de las campañas de marketing por debajo del 8%.
+- Reducción de la rotación de inventario a menos del 10% mensual.
+```
+
+### **Tabla de Indicadores para Monitoreo**
+
+Aquí está la tabla de indicadores que se utilizará para crear el sistema de monitoreo preventivo de inventario.
+
+| Indicador | Descripción | Límite de Alerta |
+| --- | --- | --- |
+| Capacidad de Almacenamiento | Porcentaje de ocupación del almacén utilizado para los calentadores | Superior al 85% |
+| Tiempo de Reposición de Proveedores | Tiempo de reposición de los calentadores por parte de los proveedores | Superior a 90 días |
+| Conversión de Campañas | Porcentaje de conversión de las campañas de marketing ejecutadas | Inferior al 8% |
+| Rotación de Inventario | Porcentaje de salida de productos con relación al inventario total | Inferior al 10% mensual |
+| Variación de Ventas Mensuales | Comparación de las ventas actuales con el mismo período del año anterior | Caída superior al 15% |
+| Pronóstico de la Demanda | Porcentaje de error entre el pronóstico de ventas y el volumen vendido | Error superior al 20% |
+| Satisfacción de los Clientes | Porcentaje de reclamos por falta de productos en inventario | Superior al 5% de reclamos |
+| Costo de Almacenamiento | Incremento de los costos debido al exceso de inventario | Crecimiento superior al 10% |
+
+Esta tabla resume los indicadores clave y sus respectivos valores de alerta, conforme a lo discutido en la reunión del 28/08/2024. Estos indicadores se utilizarán para crear el sistema de monitoreo preventivo de inventario de Zoop Megastore, ayudando a prevenir futuros excesos de inventario y a optimizar la gestión del inventario.
