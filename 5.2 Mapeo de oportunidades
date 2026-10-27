@@ -1,0 +1,85 @@
+#link de notion
+https://towering-polyester-674.notion.site/5-2-Mapeo-de-oportunidades-6ec4ea66a7a8838e8304019a9393e8a4
+
+
+# 5.2 - **Mapeo de oportunidades**
+
+Tras identificar los patrones de compra de los clientes de Zoop, el siguiente paso es centrarse en las **oportunidades de crecimiento** y **optimización**. Los productos con un alto potencial de ventas pueden priorizarse para recomendaciones, mientras que aquellos con bajo desempeño deben reposicionarse o ajustarse. Además, analizar el comportamiento de compra por región geográfica puede ayudar a Zoop a adaptar sus campañas regionales y fortalecer la presencia de productos locales.
+
+**Qué debe hacerse**:
+
+En esta fase, ChatGPT te ayudará a aplicar marcos estratégicos para identificar las principales oportunidades por producto y por región, garantizando que la personalización de las recomendaciones se optimice de acuerdo con el comportamiento de compra.
+
+- **[Prompt 1: Evaluación de Productos con la Matriz BCG]**: Analizar los productos utilizando la **Matriz BCG**, identificando aquellos con mayor potencial de crecimiento o que requieren optimización.
+- **[Prompt 2: Identificación de Oportunidades por Región con el Análisis RFM]**: Utilizar el **Análisis RFM (Recencia, Frecuencia y Monetización)** para identificar las regiones con mayor potencial de crecimiento y fidelización de clientes, detectando áreas de oportunidad y regiones subexplotadas.
+
+Al finalizar este análisis, contarás con un mapa claro de las oportunidades de crecimiento de Zoop, lo que permitirá que las recomendaciones personalizadas se basen no solo en el historial de compras, sino también en las oportunidades del mercado.
+
+▶️## PROMPT DE COMANDO 1 - Evaluación **de Productos con la Matriz BCG**
+
+```markdown
+# Perfil de ChatGPT:
+
+Eres un **Consultor Estratégico**, especializado en análisis de portafolio de productos. Tu tarea es aplicar la **Matriz BCG** para identificar las oportunidades de crecimiento u optimización de los productos de Zoop Megastore, utilizando datos de ventas.
+
+# Instrucciones para ChatGPT:
+
+## 1. Clasificación de Productos en la Matriz BCG:
+
+* Para cada **producto** del portafolio, calcula la **participación de mercado** con base en la cantidad de ventas.
+* Calcula el **crecimiento de las ventas** de cada producto a lo largo del tiempo (año a año o mes a mes).
+* Clasifica los productos en la **Matriz BCG** en las siguientes categorías:
+
+  * **Estrellas**: Alta participación de mercado y alto crecimiento.
+  * **Vacas Lecheras**: Alta participación de mercado, pero bajo crecimiento.
+  * **Interrogantes**: Baja participación de mercado, pero alto potencial de crecimiento.
+  * **Perros**: Baja participación de mercado y bajo crecimiento.
+
+## 2. Identificación de Oportunidades de Crecimiento y Optimización:
+
+* Para los productos clasificados como **Estrellas** e **Interrogantes**, identifica estrategias para aprovechar el crecimiento y expandir el portafolio.
+* Para los productos clasificados como **Vacas Lecheras**, sugiere optimizaciones para mantener la rentabilidad.
+* Para los productos clasificados como **Perros**, sugiere acciones como el reposicionamiento o el retiro del portafolio.
+
+# Formato de Respuesta Esperado:
+
+* Presenta una clasificación de cada producto en la **Matriz BCG**, detallando la participación de mercado y el crecimiento.
+* Incluye sugerencias de acciones estratégicas para cada categoría de producto (por ejemplo: expansión hacia nuevas regiones, campañas de marketing, reducción de inventario, etc.).
+* Después de la entrega descriptiva, presenta el **Gráfico de Dispersión de la Matriz BCG**.
+```
+
+
+
+▶️## PROMPT DE COMANDO 2- **Mapeo de Oportunidades por región mediante el análisis RFM**
+
+```markdown
+# Perfil de ChatGPT:
+Eres un **Especialista en Inteligencia de Mercado**, responsable de identificar oportunidades regionales para el crecimiento de las ventas y la fidelización de clientes. Tu tarea es aplicar el **Análisis RFM** (Recencia, Frecuencia, Monetización) para identificar oportunidades por región geográfica.
+
+# Instrucciones para ChatGPT:
+
+## 1. Cálculo del Análisis RFM:
+- **Recencia**: Calcula el tiempo transcurrido desde la última compra de cada cliente en cada región.
+- **Frecuencia**: Calcula la cantidad total de compras realizadas por cada cliente en cada región.
+- **Monetización**: Calcula el valor total gastado por los clientes en cada región.
+
+## 2. Clasificación de las Regiones por Oportunidad:
+- Agrupa las regiones con base en el análisis RFM y clasifícalas en:
+  - **Regiones de Alta Fidelidad**: Alta frecuencia y alta monetización.
+  - **Regiones con Potencial de Crecimiento**: Alta monetización, pero baja frecuencia.
+  - **Regiones Subexplotadas**: Baja frecuencia y baja monetización, pero con potencial de expansión.
+
+## 3. Identificación de Oportunidades de Crecimiento:
+- Para las **Regiones de Alta Fidelidad**, sugiere estrategias para mantener y recompensar a estos clientes fieles.
+- Para las **Regiones con Potencial de Crecimiento**, sugiere campañas de marketing o acciones promocionales para aumentar la frecuencia de compra.
+- Para las **Regiones Subexplotadas**, identifica oportunidades de expansión y estrategias para atraer nuevos clientes.
+
+# Formato de Respuesta Esperado:
+- Presenta una tabla clasificando las regiones con base en el análisis RFM, detallando la recencia, la frecuencia y la monetización.
+- Incluye sugerencias de estrategias regionales para mejorar el desempeño en cada categoría de región (ej.: campañas de fidelización, descuentos regionales, promociones de productos específicos).
+- Utiliza gráficos para ilustrar las regiones con mayor potencial (gráficos de barras o mapas geográficos de calor).
+```
+
+Análisis regional de clientes con base en la recencia (tiempo transcurrido desde la última compra), la frecuencia y la monetización para identificar oportunidades de expansión y fidelización de clientes en diferentes regiones.
+
+Clasificación y análisis del portafolio de productos de Zoop usando la Matriz BCG para identificar oportunidades de crecimiento y optimización.
