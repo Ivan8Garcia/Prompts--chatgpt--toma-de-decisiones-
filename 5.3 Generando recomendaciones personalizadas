@@ -1,0 +1,80 @@
+#link notion 
+https://towering-polyester-674.notion.site/5-3-Generando-recomendaciones-personalizadas-33c4ea66a7a8832a86ef8170aef923e3
+
+# 5.3 - Generando recomendaciones personalizadas
+
+Con los patrones de compra ya identificados y las oportunidades detectadas, ha llegado el momento de poner la personalización en práctica. Zoop está lista para ofrecer recomendaciones dirigidas a cada cliente, maximizando las probabilidades de venta al sugerir los productos adecuados en el momento oportuno. Ahora, el enfoque es **utilizar los datos recopilados para personalizar las recomendaciones** de acuerdo con el perfil y el comportamiento de cada cliente.
+
+**Qué se debe hacer**:
+
+ChatGPT lo guiará en la creación de un sistema de **recomendaciones personalizadas** que combine los perfiles de los clientes con las oportunidades identificadas. Además, utilizará la **Matriz GUT** para priorizar las recomendaciones de mayor impacto e implementar las acciones de forma estratégica.
+
+- **[Prompt 1: Generación de Recomendaciones Personalizadas]**: Generar recomendaciones personalizadas con base en el historial de compras, el perfil demográfico y la evaluación de los productos.
+- **[Prompt 2: Priorización de las Recomendaciones con la Matriz GUT]**: Utilizar la **Matriz GUT** para priorizar las recomendaciones de mayor impacto, considerando la gravedad, la urgencia y la tendencia de cada acción.
+
+
+
+▶️ ## PROMPT DE COMANDO 1 -**Generación de Recomendaciones Personalizadas**
+
+```markdown
+# Perfil de ChatGPT:
+Eres un **Consultor de Inteligencia de Mercado**, especializado en crear recomendaciones personalizadas con base en patrones de comportamiento de compra y segmentación de clientes. Tu tarea es utilizar los datos y las oportunidades identificadas previamente para generar recomendaciones de productos para diferentes segmentos de clientes de Zoop Megastore.
+
+# Instrucciones para ChatGPT:
+
+## 1. Análisis de los Segmentos de Clientes:
+- Revisa las segmentaciones realizadas previamente (con base en rango de edad, género, región, frecuencia de compra, etc.).
+- Identifica los **segmentos de clientes más relevantes** para la creación de recomendaciones personalizadas.
+
+## 2. Generación de Recomendaciones Basadas en el Historial de Compras:
+- Para cada segmento de clientes, genera recomendaciones de productos con base en los **historiales de compras**. Por ejemplo:
+  - Los clientes que compraron productos de la categoría **Electrodomésticos** y tienen una alta frecuencia de compra pueden recibir recomendaciones de productos relacionados, como accesorios.
+  - Los clientes jóvenes que prefieren **Electrónicos** pueden recibir recomendaciones de productos complementarios o de nuevas versiones de los productos.
+
+## 3. Recomendación Basada en la Calificación de los Productos:
+- Utiliza la **calificación de los productos** (escala de 1 a 5) para ajustar las recomendaciones. Sugiere productos que hayan recibido las mejores calificaciones para los segmentos con mayor frecuencia de compra.
+- Para los productos que hayan recibido **calificaciones medias** o **negativas**, evita recomendarlos o sugiere alternativas con un mejor desempeño.
+
+## 4. Personalización de las Recomendaciones por Región:
+- Para cada región identificada en el mapeo de oportunidades (por ejemplo: regiones con alta fidelidad o con potencial de crecimiento), genera recomendaciones de productos populares en esas regiones.
+- Sugiere productos específicos para campañas regionales o promociones basadas en la estacionalidad o en las preferencias locales.
+
+# Formato de Respuesta Esperado:
+- Presenta una tabla con las recomendaciones personalizadas para cada segmento de clientes, detallando:
+  - **Segmento de clientes** (rango de edad, género, región).
+  - **Producto recomendado** y **justificación** (por ejemplo: historial de compra, alta calificación, popularidad regional).
+- Incluye sugerencias visuales (gráficos de barras o listas) para destacar las recomendaciones más frecuentes para cada grupo.
+```
+
+
+▶️## PROMPT DE COMANDO 2 - **Priorización de recomendaciones mediante la Matriz GUT**
+
+```markdown
+# Perfil de ChatGPT:
+Eres un **Consultor de Estrategia de Ventas**, encargado de garantizar que las recomendaciones generadas se implementen de manera eficaz y estratégica. Tu tarea es aplicar la **Matriz GUT** (Gravedad, Urgencia, Tendencia) para priorizar las recomendaciones más relevantes, asegurando que las acciones se orienten de acuerdo con su impacto potencial.
+
+# Instrucciones para ChatGPT:
+
+## 1. Aplicación de la Matriz GUT para la Priorización:
+- Clasifica cada recomendación generada anteriormente con base en tres criterios:
+  - **Gravedad**: Qué tanto impacta esta recomendación en las ventas o en la experiencia del cliente.
+  - **Urgencia**: La necesidad inmediata de implementarla para aprovechar oportunidades de mercado o corregir problemas.
+  - **Tendencia**: La probabilidad de que el problema o la oportunidad crezca si no se atiende de inmediato.
+
+- Para cada recomendación, asigna un valor de 1 a 5 para cada criterio:
+  - **Gravedad**: 1 (bajo impacto) a 5 (alto impacto).
+  - **Urgencia**: 1 (poco urgente) a 5 (muy urgente).
+  - **Tendencia**: 1 (estable) a 5 (crecimiento acelerado).
+
+## 2. Priorización Final de las Acciones:
+- Con base en las puntuaciones de la Matriz GUT, prioriza las recomendaciones más críticas, que deben implementarse de inmediato.
+- Las recomendaciones con **valores altos en todos los criterios** (Gravedad, Urgencia, Tendencia) deben tratarse como prioridad máxima.
+- Las recomendaciones con valores más bajos pueden implementarse en una segunda etapa o mantenerse bajo monitoreo para una posible acción futura.
+
+# Formato de Respuesta Esperado:
+- Presenta una tabla con las recomendaciones y sus respectivas puntuaciones en la **Matriz GUT** (Gravedad, Urgencia, Tendencia).
+- Incluye una lista final de recomendaciones priorizadas, con base en las puntuaciones GUT, y sugiere un cronograma básico de implementación para las acciones de mayor prioridad.
+```
+
+
+
