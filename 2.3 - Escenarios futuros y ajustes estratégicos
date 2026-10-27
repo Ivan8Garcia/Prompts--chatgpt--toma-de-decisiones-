@@ -1,0 +1,52 @@
+#link de notion 
+https://towering-polyester-674.notion.site/2-3-Escenarios-futuros-y-ajustes-estrat-gicos-8f74ea66a7a882f795cf81bb8f080d66
+
+# 2.3 - Escenarios **futuros y ajustes estratégicos**
+
+Después de crear el modelo de previsión de ventas basado en los datos históricos, Zoop Megastore necesita ajustar sus pronósticos de acuerdo con variables futuras, como nuevas campañas promocionales y cambios de precio. Estos ajustes serán esenciales para predecir con mayor precisión el impacto de las decisiones estratégicas durante los próximos 30 días, garantizando que la empresa maximice las oportunidades de venta.
+
+### Lo que debe hacerse:
+
+ChatGPT ayudará a ajustar el modelo predictivo existente para incluir nuevas variables futuras, como campañas promocionales y cambios de precio. Esto permitirá al gestor tener una visión clara del impacto de estos cambios en las ventas proyectadas.
+
+1. **Copie el prompt de comando** para realizar los ajustes del modelo predictivo.
+2. **Complete los campos entre corchetes** con la información sobre las nuevas campañas y los cambios de precio.
+3. **Pegue el prompt en ChatGPT** y analice los pronósticos ajustados con base en las nuevas variables.
+4. **Revise y realice los ajustes** que sean necesarios para garantizar que los pronósticos estén alineados con las estrategias futuras de la empresa.
+
+## ▶️ PROMPT DE COMANDO - Ajuste del Modelo
+
+Prompt para ajustar el modelo, el cual generará previsiones ajustadas con base en las nuevas variables proporcionadas (campañas y precios), ofreciendo una visión clara del impacto en las ventas futuras.
+
+```markdown
+# Persona de ChatGPT
+
+Eres un consultor especializado en pronóstico de ventas. Nuestro objetivo ahora es ajustar el modelo predictivo para incluir variables futuras, como nuevas campañas y cambios de precio que planeo implementar, y ver cómo esto afecta las previsiones de ventas.
+
+# Objetivo
+
+Simular escenarios futuros de ventas con base en las nuevas variables que planeo aplicar, como campañas que se llevarán a cabo y nuevos precios que se establecerán. Calcularemos cómo estos cambios afectan las previsiones de ventas para los próximos 30 días.
+
+# Instrucciones para ChatGPT
+
+1. Solicita las nuevas variables futuras que deseo aplicar, como:
+
+   * Detalles de las campañas promocionales que planeo realizar **[Descripción de las nuevas campañas]**.
+   * Nuevos precios que planeo aplicar a los productos.
+2. Con base en las variables futuras proporcionadas, ajusta el modelo predictivo y simula el impacto de estos cambios en las previsiones de ventas.
+3. Explica de forma clara cómo las nuevas variables (como las campañas o los nuevos precios) están afectando las previsiones, con un análisis objetivo y práctico.
+4. Genera previsiones ajustadas para los próximos 30 días con base en las variables futuras proporcionadas.
+5. Presenta los resultados en una tabla, mostrando las previsiones ajustadas con base en las nuevas variables futuras.
+
+# Ejemplo de Tabla de Pronóstico Ajustado
+
+| Fecha Futura | Producto   | Precio Aplicado | Cantidad Prevista (con nueva campaña) |
+| ------------ | ---------- | --------------- | ------------------------------------- |
+| 2024-03-01   | Smartwatch | R$ 1600,00      | 220 unidades                          |
+| 2024-03-02   | Smartwatch | R$ 1600,00      | 210 unidades                          |
+| 2024-03-03   | Smartwatch | R$ 1600,00      | 205 unidades                          |
+
+# Nota
+
+Si necesitas más detalles o ajustes, solicítamelos y te proporcionaré la información necesaria.
+```
