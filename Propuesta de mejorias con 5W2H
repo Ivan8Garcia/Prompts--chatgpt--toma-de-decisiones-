@@ -1,0 +1,92 @@
+# link de notion con el prompt
+https://towering-polyester-674.notion.site/4-3-Propuesta-de-mejor-as-con-5W2H-aef4ea66a7a883d98def811d4cc15057
+
+
+# 4.3 - Propuesta de mejorías con 5W2H
+
+Tras revisar los comentarios e identificar los sentimientos sobre la **Batidora**, la alta dirección de Zoop solicitó un análisis detallado para la creación de un **plan de acción**. El **director ejecutivo** desea que las principales cuestiones identificadas en los comentarios sean abordadas con rapidez y eficiencia. Para ello, solicita que el equipo de análisis elabore un plan estructurado utilizando la metodología **5W2H**. Su función ahora es utilizar los datos analizados previamente y proponer un conjunto de acciones prácticas que resuelvan los problemas identificados y aprovechen las oportunidades encontradas.
+
+**Lo que debe hacerse**:
+
+Usted será responsable de elaborar un plan de acción detallado, y ChatGPT lo guiará durante este proceso.
+
+1. **Solicitud de datos**: Durante la ejecución del prompt, ChatGPT solicitará datos complementarios, como estimaciones de costo y esfuerzo para las mejoras propuestas en la **Batidora**. Con esta información, usted podrá desarrollar un plan de acción más completo.
+
+▶️ PROMPT DE COMANDO - Plan de Acción
+# Perfil de ChatGPT:
+Eres un **Consultor Estratégico** especializado en desarrollar planes de mejora de productos con base en los comentarios de los clientes y las solicitudes de los directivos. Tu función es analizar la información proporcionada, identificar los problemas y proponer un plan de acción claro utilizando la metodología **5W2H** (What, Why, Where, When, Who, How, How Much).
+
+# Instrucciones para ChatGPT:
+
+## 1. Evaluación de la Información:
+- Revisa la información proporcionada en los comentarios de los clientes, con especial atención a los **comentarios negativos** sobre la Batidora.
+- La solicitud realizada por el **director**, quien pide un análisis de los comentarios negativos y una propuesta de mejora. { solicita esta información }
+- La **tabla de información sobre la Batidora**, que contiene datos sobre el producto, los comentarios de los clientes, los principales problemas identificados y las posibles soluciones. { solicita esta información }
+
+## 2. Elaboración del Plan de Acción (5W2H):
+- Con base en la información analizada, elabora un **plan de acción** utilizando la metodología **5W2H**:
+
+### 5W:
+- **What (¿Qué se hará?)**: ¿Cuál es la acción necesaria para resolver los problemas o aprovechar las oportunidades identificadas con base en la información proporcionada?
+- **Why (¿Por qué se hará?)**: ¿Cuáles son las principales razones para llevar a cabo estas acciones, considerando el impacto identificado en los comentarios o en la percepción del producto?
+- **Where (¿Dónde se hará?)**: ¿Dónde deben implementarse estas acciones (en la producción, el marketing, la atención al cliente, etc.)?
+- **When (¿Cuándo se hará?)**: ¿Cuál es el cronograma ideal para implementar las acciones sugeridas?
+- **Who (¿Quién será responsable?)**: ¿Quién será responsable de ejecutar cada acción (equipo de producto, marketing, operaciones, etc.)?
+
+### 2H:
+- **How (¿Cómo se hará?)**: ¿Cómo se implementarán las acciones sugeridas? ¿Qué cambios, procesos o estrategias serán necesarios?
+- **How Much (¿Cuánto costará?)**: ¿Cuál es el costo estimado para llevar a cabo las acciones necesarias, con base en la información disponible?
+
+# Formato de Respuesta Esperado:
+- Presenta el plan de acción organizado en formato **5W2H**, utilizando la información proporcionada sobre los problemas u oportunidades del producto.
+- Asegúrate de que las acciones sean prácticas, aplicables y respondan a la solicitud del director.
+
+
+ℹ️E-mail del Director de Zoop Megastore
+Asunto: Análisis de Comentarios Negativos sobre la Batidora y Propuesta de Mejora
+
+Para: Gerente de Producto - Álvaro
+
+Copia: Director de Operaciones - Lucas, Directora de Finanzas - Carolina
+
+Estimado Álvaro,
+
+Espero que se encuentre bien.
+
+Me gustaría llamar su atención sobre un asunto urgente relacionado con nuestra Batidora. En los últimos meses, hemos observado un aumento significativo de comentarios negativos en las redes sociales, principalmente relacionados con la durabilidad y el nivel de ruido del producto. Esta retroalimentación está impactando negativamente la percepción de la marca, por lo que necesitamos actuar con rapidez para mitigar estos problemas.
+
+Le solicito que realice un análisis detallado de los comentarios recibidos y de la información que tenemos sobre el producto. Asimismo, le pido que desarrolle un plan de mejora que aborde estas cuestiones, utilizando una metodología clara, como la 5W2H, para garantizar que las acciones estén bien estructuradas y sean implementables.
+
+Por favor, envíe la propuesta antes de finalizar esta semana para su evaluación.
+
+Atentamente,
+
+Stevan Camacho  
+Director Ejecutivo - Zoop Megastore
+
+
+ℹ️ Tabla de Informaciones sobre la Batidora
+
+| Aspecto | Información |
+| --- | --- |
+| Nombre del Producto | Batidora |
+| Principales Problemas | Baja durabilidad, Alto nivel de ruido |
+| Principales Aspectos Positivos | Diseño moderno, Fácil de usar |
+| Sentimientos Negativos Identificados | Frustración por la baja durabilidad, Insatisfacción con el nivel de ruido |
+| Posibles Soluciones | Reforzar la estructura interna, Ajustar el motor para reducir el ruido |
+| Impacto Estimado de las Soluciones | Reducción de devoluciones, Mejor percepción de la marca en las redes sociales |
+| Costo Estimado | Refuerzo estructural: Alto; Ajuste del motor: Medio |
+| Tiempo de Implementación | 3 meses para implementar los cambios internos en el producto |
+
+
+1. **Aplicación del 5W2H**: Una vez que se proporcionen los datos, ChatGPT estructurará el plan de acción utilizando el modelo 5W2H, respondiendo a las siguientes preguntas:
+- **¿Qué** se hará para resolver los problemas o aprovechar las oportunidades?
+- **¿Por qué** es necesaria esta acción?
+- **¿Dónde** se implementará?
+- **¿Cuándo** se llevará a cabo?
+- **¿Quién** será el responsable de cada parte de la acción?
+- **¿Cómo** se ejecutarán los cambios?
+- **¿Cuánto** costará?
+- [prompt]
+
+Este plan de acción será fundamental para garantizar que los problemas relacionados con la Batidora se resuelvan de manera eficaz y dentro de un plazo adecuado, asegurando que Zoop recupere la confianza de sus clientes.
