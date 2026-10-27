@@ -1,0 +1,81 @@
+#link de notion
+https://towering-polyester-674.notion.site/3-2-Sugerencia-y-priorizaci-n-de-acciones-correctivas-5844ea66a7a882ef8ef881da2920e13f
+
+# 3.2 - Sugerencia y priorización de acciones correctivas
+
+Tras identificar las principales causas de la acumulación de inventario en Zoop Megastore, el siguiente paso es proponer y priorizar acciones correctivas. Con base en el análisis anterior, el objetivo es tomar decisiones estratégicas fundamentadas, garantizando que las acciones implementadas sean eficaces y estén alineadas con los objetivos financieros, operativos y de marketing de la empresa.
+
+### Lo que debe hacerse:
+
+Ahora, ChatGPT sugerirá acciones correctivas que aborden directamente las causas identificadas en el video anterior. Además, se realizará la priorización de las acciones utilizando frameworks como la **Matriz GUT** o **Esfuerzo e Impacto**.
+
+1. **Pegue el prompt** en ChatGPT dentro del mismo chat donde obtuvo las causas. Esto permitirá que ChatGPT utilice los datos anteriores.
+2. La lista de **acciones correctivas** se organizará con base en los siguientes impactos:
+    - **Impacto Financiero**: Cómo cada acción afecta los costos de almacenamiento y la rentabilidad.
+    - **Impacto Operativo**: Mejora en el control del inventario y la logística.
+    - **Impacto en Marketing**: Influencia en las campañas y las ventas.
+3. **Priorice** las acciones correctivas utilizando frameworks estratégicos:
+    - **Matriz GUT**: Gravedad, Urgencia y Tendencia.
+    - **Esfuerzo e Impacto**: Acciones de mayor impacto con menor esfuerzo.
+4. Al final, ChatGPT presentará una **tabla con las acciones priorizadas** y sus impactos esperados, lista para su implementación.
+
+## ▶️ **Prompt de Comando -** Sugerencia y priorización de acciones correctivas
+
+Este prompt guiará al gestor en la creación de una lista de acciones correctivas, organizadas por impacto financiero, operativo y de marketing, y sugerirá una priorización estratégica.
+
+```markdown
+# Persona de ChatGPT
+
+Como consultor especializado en gestión de inventarios y eficiencia operativa. Ahora, con base en el análisis de las causas del inventario elevado ya identificadas, definiremos acciones correctivas estratégicas para resolver el problema del exceso de inventario en Zoop Megastore. Nuestro objetivo es priorizar estas acciones con base en los impactos financieros, operativos y de marketing.
+
+# Objetivo
+
+Con base en las causas del inventario elevado, es momento de proponer y priorizar acciones correctivas. Estas acciones deben ser estratégicas, aplicando conceptos como **Lean** y **Just-in-Time**, y priorizadas de acuerdo con los impactos esperados en las diferentes áreas de la empresa.
+
+# Instrucciones para ChatGPT
+
+1. **Sugerencia de Acciones Correctivas**:
+
+   * Propón acciones correctivas que aborden directamente las causas identificadas.
+
+2. **Impacto de las Acciones**:
+
+   * Para cada acción sugerida, proporciona un análisis detallado del impacto esperado en tres áreas principales:
+
+   * **Impacto Financiero**: Evalúa cómo la acción puede afectar los costos de almacenamiento, el flujo de caja y las utilidades.
+   * **Impacto Operativo**: Analiza el impacto sobre los procesos logísticos, como la reducción de los costos de almacenamiento y la mejora en la eficiencia del inventario.
+     * **Impacto en Marketing**: Evalúa el impacto sobre la eficacia de las campañas promocionales y la capacidad de atraer nuevos clientes o fidelizar a los ya existentes.
+
+3. **Priorización de las Acciones**:
+
+   * Propón una matriz de priorización, sugiriendo las acciones correctivas más importantes con base en los impactos de corto y largo plazo.
+   * Utiliza un enfoque como la **Matriz GUT (Gravedad, Urgencia y Tendencia)** o la **Matriz de Esfuerzo e Impacto**, clasificando las acciones en orden de importancia. Para cada acción:
+
+   * **Gravedad**: ¿Qué tan crítico es resolver esta causa?
+     * **Urgencia**: ¿Con qué rapidez debemos actuar?
+     * **Tendencia/Beneficio**: ¿Cuáles son los impactos futuros si esta acción se implementa o no?
+
+4. **Conclusión**:
+
+   * Genera una lista final de acciones correctivas priorizadas, lista para ser implementada.
+   * Presenta el resultado final en formato de tabla, que contenga:
+
+   * **Acción Propuesta**: Descripción de la acción sugerida.
+   * **Impacto Financiero**: Estimación del impacto financiero de la acción.
+   * **Impacto Operativo**: Impacto esperado en las operaciones logísticas y de inventario.
+   * **Impacto de Marketing**: Cómo la acción puede impactar las ventas y las campañas de marketing.
+   * **Prioridad**: Clasificación de la acción con base en la gravedad, urgencia y tendencia/beneficio.
+
+# Ejemplo de Tabla de Acciones Prioritarias
+
+| Acción Propuesta                | Impacto Financiero   | Impacto Operativo               | Impacto de Marketing | Prioridad |
+| ------------------------------- | -------------------- | ------------------------------- | -------------------- | --------- |
+| Ajuste en el volumen de pedidos | Reducción de costos  | Mejora en el control            | Neutro               | Alta      |
+| Promociones segmentadas         | Aumento de ventas    | Reducción rápida del inventario | Alta eficacia        | Media     |
+| Negociación del lead time       | Reducción de riesgos | Mayor flexibilidad              | Neutro               | Alta      |
+| Reducción de SKUs               | Reducción de costos  | Liberación de espacio           | Neutro               | Media     |
+
+# Nota
+
+Si necesitas más detalles o ajustes adicionales para el análisis o la priorización, solicítamelos directamente y te proporcionaré la información necesaria.
+```
