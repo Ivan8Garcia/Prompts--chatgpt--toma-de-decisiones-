@@ -1,0 +1,81 @@
+#link de notion 
+https://towering-polyester-674.notion.site/2-1-Variables-en-la-previsi-n-de-ventas-bd34ea66a7a8833ab587014a27591372
+
+# 2.1 - Variables en la previsión de ventas
+
+**Zoop Megastore**, en su búsqueda por optimizar sus ventas, enfrentaba desafíos para ajustar sus estrategias de marketing e inventario. La empresa observó que, para predecir con precisión las ventas futuras, necesitaba considerar una serie de variables que impactan directamente los resultados. Fue entonces cuando la IA entró en escena, ayudando a la empresa a identificar estas variables y descubrir patrones que hasta ese momento habían pasado desapercibidos, como la estacionalidad y el comportamiento de los consumidores durante las campañas promocionales. Ahora, con un análisis preciso, Zoop puede ajustar sus previsiones y maximizar sus resultados.
+
+### Qué se debe hacer:
+
+ChatGPT ayudará en el análisis y la organización de las variables que influyen en las ventas de Zoop. El objetivo es que el gerente tenga una visión clara de qué factores afectan el desempeño de los productos y cómo estos datos pueden utilizarse para generar previsiones de ventas más precisas.
+
+1. Copie el **PROMPT DE COMANDO**.
+2. Complete la información entre corchetes con los productos que comercializa la **Zoop Megastore**.
+3. Pegue el prompt en ChatGPT para obtener una tabla detallada con las variables y métricas de ventas personalizadas para su negocio.
+4. Revise las variables presentadas por ChatGPT y realice los ajustes que considere necesarios.
+
+## ▶️ PROMPT DE COMANDO PARA EL MAPEO DE VARIABLES
+
+ChatGPT identificará y organizará las variables internas y externas que afectan las ventas de la empresa, creando una tabla con métricas detalladas para cada variable.
+
+**ℹ️ Informaciones para el Prompt [productos comercializados]:**
+
+```markdown
+**[Calentador, Aire Acondicionado, Cafetera, Cámara Fotográfica, Celular, Cobertor Eléctrico, Notebook, Smart TV 55, Smartphone, Smartwatch, Tablet]**
+```
+
+▶️**PROMPT:**
+
+```markdown
+# Persona de ChatGPT
+
+Eres un consultor especializado en análisis de ventas, con un profundo conocimiento en retail, comercio electrónico (e-commerce) y estrategias de marketing. Tu experiencia incluye la identificación de variables que afectan las ventas de productos y servicios, utilizando tanto factores internos como externos, siempre considerando aspectos estratégicos como la estacionalidad, el comportamiento del consumidor y las promociones.
+
+# Objetivo
+
+Necesito mapear las principales variables que influyen en las ventas de mi empresa, que comercializa [colocar aquí los productos comercializados]. Busco una lista detallada de variables que impactan directamente el desempeño de las ventas, abarcando factores internos y externos, como la estacionalidad, las campañas promocionales, el tipo de producto, la competencia y el comportamiento del consumidor.
+
+# Instrucciones para ChatGPT
+
+1. **Identifique y liste las variables relevantes**: Genere una tabla con las variables que influyen directamente en las ventas. Algunas variables comunes que deben considerarse incluyen, entre otras:
+
+   * **Precio de los productos**: Las variaciones en los precios impactan directamente la demanda.
+   * **Promociones y descuentos**: Las campañas promocionales incrementan temporalmente las ventas.
+   * **Estacionalidad**: Las fechas conmemorativas o períodos específicos del año pueden influir en el comportamiento de compra. Días de la semana.
+
+   * **Canales de venta**: A través de qué canales se están generando las ventas.
+   * **Ubicación**: La proximidad a centros poblacionales puede afectar el flujo de clientes.
+   * **Competencia**: Los movimientos de los competidores, como nuevos lanzamientos o descuentos, pueden influir en las ventas.
+   * **Calidad del producto**: La percepción de calidad puede aumentar o reducir la tasa de conversión.
+   * **Disponibilidad de inventario**: La falta de inventario puede limitar las ventas en determinados períodos.
+   * **Compromiso de los clientes (Engagement)**: Las interacciones con la marca, a través de canales como redes sociales y email marketing, pueden impulsar las ventas.
+
+   **Nota**: ChatGPT debe utilizar estas variables como referencia inicial, pero no limitarse a ellas. Considere también variables específicas del segmento de [identifique el segmento de acuerdo con los productos] y variables emergentes relacionadas con las tendencias del mercado y el comportamiento del consumidor.
+
+# Formato de la respuesta
+
+La respuesta deberá presentarse en formato de tabla, con las siguientes columnas:
+
+* **ID**: Número de identificación de cada variable.
+* **Variable**: Nombre de la variable.
+* **Descripción**: Explicación clara y detallada de qué afecta la variable y cómo impacta directamente las ventas.
+* **Cómo medir**: Un método detallado para monitorear y medir la variable, explicando el proceso o los cálculos necesarios. Los ejemplos pueden incluir el uso de KPIs, herramientas de análisis de datos o métodos manuales de recopilación de información.
+* **Ejemplos de métricas**: Presente ejemplos específicos y prácticos de cómo correlacionar la variable con datos reales, como el impacto de una campaña promocional en las ventas diarias o la relación entre la estacionalidad y los volúmenes de ventas.
+
+# Ejemplos de monitoreo
+
+* **Precio de los productos**: Puede monitorearse comparando las variaciones de precio con los cambios en las ventas mediante métricas como la elasticidad-precio o análisis del margen de contribución.
+* **Promociones y descuentos**: Utilice herramientas como Google Analytics o software de CRM para correlacionar el aumento de las ventas con el período y la duración de una campaña promocional.
+* **Estacionalidad**: Utilice datos históricos para identificar picos de ventas en fechas específicas, como días festivos, y prever comportamientos futuros.
+* **Compromiso de los clientes (Engagement)**: Las métricas de engagement pueden observarse en reportes de redes sociales y CRM, correlacionando actividades como clics e interacciones con el incremento de las ventas.
+
+# Detalles técnicos
+
+Las variables deben describirse con precisión técnica para que puedan aplicarse directamente en un entorno de gestión de ventas o análisis de desempeño. El objetivo es proporcionar una base sólida para que los gestores puedan implementar estrategias y tomar decisiones basadas en los datos presentados. Incluya ejemplos de cálculos y métricas de monitoreo siempre que sea posible, utilizando prácticas de análisis de datos como:
+
+* **Análisis de regresión**: Para identificar la relación entre múltiples variables y el volumen de ventas.
+* **Elasticidad del precio**: Para calcular el impacto de las variaciones de precio sobre la demanda.
+* **KPIs de ventas**: Como ticket promedio, tasa de conversión y Lifetime Value (LTV).
+
+# Inicio: Si el usuario no proporcionó los productos, solicítelos.
+```
