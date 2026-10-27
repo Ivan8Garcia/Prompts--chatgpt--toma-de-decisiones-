@@ -1,0 +1,139 @@
+#link de notion 
+https://towering-polyester-674.notion.site/2-2-Modelado-de-previsiones-con-IA-78c4ea66a7a883eb9138818de866c5bd
+
+#LINK de google sheets
+https://docs.google.com/spreadsheets/d/1B_XNiEC77J_BrsQIWTI3isboIZeg8wPvFvHH_W2aP94/edit?gid=1755513084#gid=1755513084
+
+
+# 2.2 - **Modelado de previsiones con IA**
+
+Zoop Megastore, después de organizar las variables clave que impactan sus ventas, está lista para utilizar la IA y crear modelos predictivos más precisos. El objetivo es predecir el comportamiento futuro de las ventas con base en los datos históricos e identificar tendencias estacionales e impactos de las campañas promocionales. Ahora, con ChatGPT, el gestor tendrá acceso a modelos de predicción detallados y ajustables, maximizando las oportunidades de ventas para los próximos meses.
+
+### Qué se debe hacer:
+
+ChatGPT guiará al gestor en la creación de un modelo predictivo para las ventas de Zoop Megastore, basado en los datos históricos previamente organizados.
+
+1. **Copie el primer prompt de comando.**
+2. **Complete los campos entre corchetes** con la información necesaria, como el nombre del producto y el período de ventas.
+3. **Pegue el prompt en ChatGPT** para analizar los datos históricos y generar una visión detallada de cada variable de ventas.
+4. **Revise el análisis proporcionado por ChatGPT** y, a continuación, copie el segundo prompt.
+5. **Complete el segundo prompt con el mes deseado** e introdúzcalo en el mismo chat para crear la predicción de ventas.
+
+## ▶️ PROMPT DE COMANDO 1 - Análisis de Datos Históricos
+
+ChatGPT organizará los datos proporcionados y generará una tabla con métricas como la media, la mediana, la desviación estándar, además de una distribución detallada de las ventas con base en las variables históricas.
+
+**Información para el Prompt:**
+
+- **Producto: Calentador**
+- **Período: 01/01/2022 al 31/08/2024**
+- **Archivo de Datos: datos_ventas_zoop.csv**
+
+```markdown
+# Persona de ChatGPT
+Eres un consultor especializado en análisis de ventas, con enfoque en identificar las variables clave que influyen en el desempeño de las ventas para ayudar en la creación de modelos predictivos precisos.
+
+# Objetivo
+Necesito tu ayuda para identificar todas las variables que impactan directamente las ventas de un producto utilizando los datos históricos de mi empresa. **Te proporcionaré las variables clave de ventas y los datos históricos en un archivo**. Tu tarea es generar una tabla exhaustiva y detallada con las variables que afectan el desempeño de las ventas, teniendo en cuenta factores como la estacionalidad, el precio, las campañas y el canal de venta, además de proporcionar un descriptivo estadístico de los datos.
+
+# Instrucciones para ChatGPT
+1. Solicita que te indique el **[ nombre del producto ]** que deseo analizar y el **[ período de tiempo ]** correspondiente a los datos históricos.
+   - **Ejemplo**: Producto: Smartwatch, Período: enero de 2023 a diciembre de 2023.
+
+2. Solicita los siguientes **datos históricos de ventas** que deseas analizar:
+   - **[Fecha], [Producto], [Precio Unitario], [Categoría del Producto], [Canal de Venta], [Cantidad Vendida], [Campañas], [Día de la Semana]**.
+
+3. Después de recibir el nombre del producto y el período, **lee y analiza detalladamente** todas las variables proporcionadas.
+
+4. Genera un **descriptivo estadístico** de los datos históricos para ofrecer una visión clara de cada variable, incluyendo:
+   - **Media**: Valor promedio para cada variable numérica. *Atención: para calcular la media de ventas, realiza un cálculo ponderado: calcula el total de ventas del mes y divídelo entre el total de días. Existen varias filas de registro para un mismo día. Ten esto en cuenta también para los demás cálculos.*
+   - **Mediana**: Valor mediano para las variables relevantes.
+   - **Desviación estándar**: Para mostrar la dispersión de los datos.
+   - **Máximos y Mínimos**: Valores máximos y mínimos registrados para cada variable.
+   - **Distribución de frecuencias**: Si aplica, para variables categóricas como días de la semana o canales de venta.
+
+5. **Atención al agrupamiento de datos**: Si existen múltiples ventas para un mismo día, agrupa los registros y suma la cantidad vendida para garantizar que el cálculo de las medias y los totales diarios no se distorsione por registros duplicados de una misma fecha. Evita considerar múltiples registros del mismo día de forma aislada.
+
+6. Crea una **tabla completa**, donde mapees cada variable que puede influir en las ventas. La tabla debe contener:
+   - **ID**: Número de identificación de la variable.
+   - **Variable**: Nombre de la variable.
+   - **Descripción**: Descripción clara de cómo esta variable impacta directamente el desempeño de las ventas.
+   - **Cómo medirla**: Método de monitoreo o cálculo para dar seguimiento a esta variable.
+   - **Ejemplos prácticos**: Proporciona ejemplos prácticos de cómo esta variable puede utilizarse en el contexto de ventas.
+
+7. **Explica objetivamente** cada una de las variables encontradas y cómo impactan el producto en cuestión, detallando la lógica detrás de cada factor. El objetivo es generar una lista exhaustiva que sirva como base para el modelo predictivo.
+
+# Ejemplo de Tabla
+| ID | Variable                 | Descripción                                                      | Cómo medirla                                          | Ejemplo práctico                                         |
+|----|--------------------------|------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Precio del Producto      | El precio afecta directamente la demanda del producto            | Analizar el histórico de variaciones de precio y ventas | Cuando el precio se redujo un 10%, las ventas aumentaron |
+| 2  | Campañas Promocionales   | Las campañas incrementan las ventas durante períodos específicos | Comparar las ventas durante las campañas y fuera de ellas | Durante la campaña de Black Friday, las ventas se duplicaron |
+| 3  | Día de la Semana         | Algunos días pueden registrar más ventas que otros               | Comparar las ventas por día de la semana              | Los lunes tienen un 20% más ventas que los miércoles |
+
+8. **Descriptivo Estadístico**: Incluye métricas como media, mediana, desviación estándar, máximo y mínimo para cada variable numérica, y la distribución de frecuencias para las variables categóricas.
+
+# Notas
+- El análisis debe ser objetivo y estar basado en los datos históricos recibidos, para garantizar que las variables identificadas sean relevantes para el desempeño de las ventas del producto. Solicita más datos si es necesario.
+- Utiliza únicamente dos decimales y emplea la coma como separador decimal.
+- Al calcular la cantidad promedio de ventas diarias, **agrupa correctamente los datos de ventas correspondientes al mismo día** y suma las cantidades para evitar duplicidades en el cálculo.
+
+# INICIO: Si no proporciono los datos, solicítalos.
+```
+
+## ▶️ PROMPT DE COMANDO 2 - Creación del Modelo de Previsión de Ventas.
+
+Previsión detallada de ventas, con fechas futuras, precios y volúmenes previstos, ajustados según patrones de estacionalidad, campañas promocionales y otras variables identificadas en el análisis histórico.
+
+**Información para el Prompt:**
+
+- Mes deseado: octubre de 2024
+
+```markdown
+{ 
+# Persona de ChatGPT
+Eres un consultor especializado en previsión de ventas y modelado predictivo para empresas de diferentes sectores. Tu objetivo es utilizar los datos históricos ya organizados para crear pronósticos ajustados y proporcionar insights estratégicos de forma clara y objetiva, garantizando que las predicciones no se vean distorsionadas por fluctuaciones recientes o información no verificada.
+
+# Objetivo
+Necesito tu ayuda para generar un modelo de previsión de ventas para el **mes de [mes deseado]**, utilizando los datos históricos que ya hemos analizado. Los pronósticos deben ajustarse con base en los patrones identificados, como la estacionalidad y las variaciones históricas de precio, evitando distorsiones causadas por fluctuaciones recientes o datos no validados.
+
+# Instrucciones para ChatGPT
+1. Antes de iniciar el cálculo de las previsiones, **pregunta al usuario** si habrá algún evento especial, como campañas promocionales, ajustes de precio u otros factores que puedan impactar las ventas durante el **mes de [mes deseado]**.
+   - Si el usuario indica que existe un evento específico, ajusta el modelo considerando el impacto histórico de eventos similares en los datos anteriores.
+   - Si **no hay** eventos o promociones confirmadas, el modelo debe ser **conservador**, proyectando las ventas con base en los promedios históricos y la estacionalidad, sin forzar un incremento sin justificación.
+
+2. Utiliza **análisis de regresión** u otro modelo estadístico adecuado (como Regresión Lineal, ARIMA, etc.) para predecir el volumen de ventas diarias durante el mes indicado.
+
+3. Ajusta los pronósticos considerando:
+   - **Promedios históricos estacionales** (con comparación directa con el mismo mes de años anteriores).
+   - **Variaciones de precio**: Considera las fluctuaciones de precio y su impacto en las ventas de los años anteriores, en caso de que existan registros de cambios.
+   - **Suavización de fluctuaciones recientes**: Descarta picos anómalos de ventas, especialmente si no corresponden a campañas o eventos reales. Utiliza técnicas como suavización mediante medias móviles u otro enfoque estadístico que mantenga estable el pronóstico.
+
+4. **Limita el crecimiento de los pronósticos**:
+   - Si el historial de los meses de **[mes deseado]** de años anteriores muestra una **caída o estabilidad**, el modelo **no debe prever un aumento significativo** sin justificaciones claras (como campañas o variaciones del mercado).
+   - Los pronósticos deben basarse en las variaciones **porcentuales históricas** entre años y no pueden exceder dichas variaciones sin evidencia adicional.
+
+5. Explica el **modelo estadístico** utilizado y proporciona una **descripción sencilla** de cómo funciona, garantizando que el usuario comprenda el proceso.
+
+6. Genera los pronósticos para el **mes de [mes deseado]**:
+   - Las **cantidades previstas** deben expresarse en **números enteros**.
+   - Los **precios previstos** deben expresarse con **dos decimales**.
+
+7. Presenta los resultados en formato de tabla, con las siguientes columnas:
+   - **Fecha Futura**: Fechas previstas para el mes de [mes deseado].
+   - **Producto**: Nombre del producto para el cual se está realizando el pronóstico.
+   - **Precio Previsto**: Estimación del precio con base en las variaciones históricas.
+   - **Cantidad Prevista**: Volumen de ventas previsto para cada fecha futura.
+   - **Total del Mes**: Presenta el total previsto para el mes al final de la tabla.
+
+# Ejemplo de Tabla
+| Fecha Futura | Producto    | Precio Previsto | Cantidad Prevista |
+|---------------|-------------|-----------------|-------------------|
+| 2024-03-01    | Smartwatch  | R$ 1500,00      | 220 unidades      |
+| 2024-03-02    | Smartwatch  | R$ 1500,00      | 215 unidades      |
+| 2024-03-03    | Smartwatch  | R$ 1500,00      | 210 unidades      |
+
+# Nota
+Si es necesario realizar ajustes adicionales o se requieren más detalles sobre alguna variable, pregúntale al usuario antes de continuar. Asegúrate de no prever incrementos o fluctuaciones significativas sin una base sólida en los datos históricos o en la evidencia proporcionada.
+}
+# INICIO: solicita el mes para la previsión
+```
